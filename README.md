@@ -147,6 +147,9 @@ The system is configured to use Ethereum (ETH) by default, but you can modify it
 2. The system will automatically use that cryptocurrency for price fetching and fee calculations.
 
 ### Example Results
+```bash
+curl -X POST http://localhost:4003/task/execute
+```
 
 ```bash
 Server started on port: 4002
